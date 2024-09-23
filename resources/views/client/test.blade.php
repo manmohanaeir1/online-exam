@@ -4,8 +4,19 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
+                
             <div class="card">
-                <div class="card-header"> Brixton College,  Entrance Exam for MBA 2024 Fall Intake </div>
+
+                
+
+<div class="card-header"><strong>Brixton College, Entrance Exam for MBA 2024 Fall Intake - </strong> 
+
+    @php
+    date_default_timezone_set('Asia/Kathmandu');
+    echo date("l jS \\of F Y h:i:s A") . "<br>";
+    @endphp
+    </div>
+               
 
                 <div class="card-body">
                     @if(session('status'))
@@ -48,6 +59,9 @@
                                             </div>
                                         </div>
                                     @endforeach
+                                   
+        
+                                    
                                 </div>
                             </div>
                         @endforeach
@@ -59,6 +73,7 @@
                                 </button>
                             </div>
                         </div>
+                        
                     </form>
                 </div>
             </div>
